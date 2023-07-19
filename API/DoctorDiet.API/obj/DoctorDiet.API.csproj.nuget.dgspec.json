@@ -1,0 +1,591 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.API\\DoctorDiet.API.csproj": {}
+  },
+  "projects": {
+    "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.API\\DoctorDiet.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.API\\DoctorDiet.API.csproj",
+        "projectName": "DoctorDiet.API",
+        "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.API\\DoctorDiet.API.csproj",
+        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Data\\DoctorDiet.Data.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Data\\DoctorDiet.Data.csproj"
+              },
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj"
+              },
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              },
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj"
+              },
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj"
+              },
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Services\\DoctorDiet.Services.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Services\\DoctorDiet.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MiNET": {
+              "target": "Package",
+              "version": "[1.0.2304, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Data\\DoctorDiet.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Data\\DoctorDiet.Data.csproj",
+        "projectName": "DoctorDiet.Data",
+        "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Data\\DoctorDiet.Data.csproj",
+        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj",
+        "projectName": "DoctorDiet.Dto",
+        "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj",
+        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj",
+        "projectName": "DoctorDiet.Models",
+        "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj",
+        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj",
+        "projectName": "DoctorDiet.Profiles",
+        "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Profiles\\DoctorDiet.Profiles.csproj",
+        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Profiles\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.DTO\\DoctorDiet.DTO.csproj"
+              },
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.ExpressionMapping": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj",
+        "projectName": "DoctorDiet.Repositories",
+        "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Data\\DoctorDiet.Data.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Data\\DoctorDiet.Data.csproj"
+              },
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj"
+              },
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Models\\DoctorDiet.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Services\\DoctorDiet.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Services\\DoctorDiet.Services.csproj",
+        "projectName": "DoctorDiet.Services",
+        "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Services\\DoctorDiet.Services.csproj",
+        "packagesPath": "C:\\Users\\Electronica Care\\.nuget\\packages\\",
+        "outputPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Electronica Care\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Dto\\DoctorDiet.Dto.csproj"
+              },
+              "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj": {
+                "projectPath": "D:\\ITI-Tasks\\Graduation Project\\API\\DoctorDiet.Repositories\\DoctorDiet.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

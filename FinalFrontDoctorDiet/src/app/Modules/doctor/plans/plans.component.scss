@@ -1,0 +1,30 @@
+
+.card{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+margin-bottom: 3%;
+}
+button{
+    background-color: #0d1c9e;
+    color: white
+    ;
+}
+.plans{
+height:65vh;
+overflow-x: auto;
+
+}
+.plans::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: #F5F5F5;
+  }
+  
+  .plans::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  .card img{
+    width: 56%;
+  }
+h2{
+  font-family: "El Messiri", sans-serif;
+
+}

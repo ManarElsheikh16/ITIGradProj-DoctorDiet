@@ -1,0 +1,120 @@
+
+.container {
+  width: 97%
+}
+
+#loginBtn {
+
+  background: #163A66;
+  background: linear-gradient(to left, #163A66 50%, #005CB8 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+  color: white;
+}
+
+#loginBtn:hover {
+  background-position: left;
+}
+
+#iconContainer {
+  height: 35px;
+  width: 35px;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #0f62c6;
+
+  font-size: 18px;
+  font-weight: bold;
+  transition: .3s;
+  position: relative;
+  z-index: 2;
+}
+
+nav ul li a:hover {
+
+  color: #0f62c6;
+  ;
+  border-bottom: 1px solid #0f62c6;
+  ;
+
+}
+
+.navbar {
+  height: auto;
+  background-color: white;
+
+
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.navbar-text {
+  font-size: 16px;
+}
+
+.btn-primary,
+.textColor {
+  font-size: 14px;
+  padding: 0.3rem 0.7rem;
+}
+
+select {
+  display: block;
+  text-decoration: none;
+  color: #0f62c6;
+  padding: 10px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: .3s;
+  position: relative;
+  z-index: 2;
+}
+
+select option {
+  /* Styling for the options */
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 8px;
+}
+
+@media screen and (max-width: 1067px) {
+
+  .navbar {
+    height: auto;
+  }
+
+  .navbar-text {
+    margin-left: 0.5rem;
+  }
+
+  .btn-primary,
+  .textColor {
+    font-size: 12px;
+    padding: 0.2rem 0.5rem;
+  }
+
+}
+
+.stop {
+  justify-content: end;
+}
+
+.stop1 {
+  margin-left: 38%;
+}
+
+@media screen and (max-width: 767px) {}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}

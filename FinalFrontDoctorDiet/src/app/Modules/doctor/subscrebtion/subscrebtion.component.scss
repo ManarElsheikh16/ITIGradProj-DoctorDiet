@@ -1,0 +1,71 @@
+.row {
+  height: 82vh;
+  overflow: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.table>:not(caption)>*>* {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.buttonn1 {
+  color: white;
+  background-color: #85CC67;
+}
+
+.buttonn1:hover {
+  color: #85CC67;
+  background-color: white;
+}
+
+.buttonn2 {
+  color: white;
+  background-color: red;
+}
+
+.buttonn2:hover {
+  color: red;
+  background-color: white;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.card img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.card svg {
+  position: absolute;
+
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  filter: drop-shadow(2px -9px 4px rgba(0, 69, 134, 0.2));
+}
+
+.card:hover svg {
+  filter: drop-shadow(2px -9px 4px rgba(0, 69, 134, 0.4));
+}
+
+.fontColor {
+  color: #163A66
+}
+
+tr:hover {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+@media (max-width :767px) {
+
+  td {
+    width: 50%;
+  }
+}

@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg bg-body-light fixed-navbar">
+  <div class="container " >
+
+    <a class="navbar-brand" routerLink="/Home">
+      <img loading="lazy" src="assets/logooo.jpg" alt="logo" name="logo" height="82"
+        style="border-right:2px solid #0f62c6;">
+    </a>
+
+    <a class="navbar-brand stop1" style="font-weight: bold; font-size: x-large; color: #0f62c6;" routerLink="/Home"></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse stop" style="text-align: right;" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item " *ngIf="isDoctor.value !=0">
+          <a class="nav-link active " aria-current="page" routerLink="/doctor/dash/Welcome" onclick="collapseNavbar()"> لوحة
+            التحكم</a>
+        </li>
+        <li class="nav-item active" *ngIf="isLoggedIn.value ==1 && isPatient.value !=0">
+          <a class="nav-link" routerLink="/user/Profile" onclick="collapseNavbar()">
+            الملف&nbsp;الشخصي</a>
+        </li>
+        <li class="nav-item active" *ngIf="isLoggedIn.value ==1 && isDoctor.value !=0">
+          <a class="nav-link" routerLink="/doctor/Profile" onclick="collapseNavbar()">
+            الملف&nbsp;الشخصي</a>
+        </li>
+        <li class="nav-item active" *ngIf="isPatient.value != 0">
+          <a class="nav-link" routerLink="/user/Plan" onclick="collapseNavbar()">
+            خطتك</a>
+        </li>
+        <li class="nav-item active  my-2" *ngIf="isLoggedIn.value !==1">
+          <a class="nav-link" routerLink="/auth/Login" onclick="collapseNavbar()">
+            الدخول</a>
+        </li>
+
+        <li class="nav-item active " style="direction: rtl;" *ngIf="isLoggedIn?.value !== 1">
+          <select (change)="selectrouter($event)" style=" border: aliceblue;">
+            <option disabled value="" selected>تسجيل </option>
+            <option value="/auth/Register" onclick="collapseNavbar()">تسجيل مريض</option>
+            <option value="/auth/DoctorRegister" onclick="collapseNavbar()">تسجيل دكتور</option>
+          </select>
+        </li>
+
+
+        <li class="nav-item active" *ngIf="isLoggedIn.value ==1">
+          <a class="nav-link" (click)="Logout()" onclick="collapseNavbar()">الخروج</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<div style="height: 82px;"></div>

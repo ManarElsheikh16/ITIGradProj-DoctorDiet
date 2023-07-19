@@ -1,0 +1,30 @@
+E:\API\DoctorDiet.Dto\bin\Release\net7.0\DoctorDiet.Dto.deps.json
+E:\API\DoctorDiet.Dto\bin\Release\net7.0\DoctorDiet.Dto.dll
+E:\API\DoctorDiet.Dto\bin\Release\net7.0\DoctorDiet.Dto.pdb
+E:\API\DoctorDiet.Dto\bin\Release\net7.0\DoctorDiet.Models.dll
+E:\API\DoctorDiet.Dto\bin\Release\net7.0\DoctorDiet.Models.pdb
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.Dto.csproj.AssemblyReference.cache
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.Dto.GeneratedMSBuildEditorConfig.editorconfig
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.Dto.AssemblyInfoInputs.cache
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.Dto.AssemblyInfo.cs
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.Dto.csproj.CoreCompileInputs.cache
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.Dto.csproj.CopyComplete
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.Dto.dll
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\refint\DoctorDiet.Dto.dll
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.Dto.pdb
+E:\API\DoctorDiet.Dto\obj\Release\net7.0\ref\DoctorDiet.Dto.dll
+D:\اخر اليوم\API\DoctorDiet.DTO\bin\Release\net7.0\DoctorDiet.DTO.deps.json
+D:\اخر اليوم\API\DoctorDiet.Dto\bin\Release\net7.0\DoctorDiet.DTO.dll
+D:\اخر اليوم\API\DoctorDiet.Dto\bin\Release\net7.0\DoctorDiet.DTO.pdb
+D:\اخر اليوم\API\DoctorDiet.Dto\bin\Release\net7.0\DoctorDiet.Models.dll
+D:\اخر اليوم\API\DoctorDiet.Dto\bin\Release\net7.0\DoctorDiet.Models.pdb
+D:\اخر اليوم\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.DTO.csproj.AssemblyReference.cache
+D:\اخر اليوم\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\اخر اليوم\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.DTO.AssemblyInfoInputs.cache
+D:\اخر اليوم\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.DTO.AssemblyInfo.cs
+D:\اخر اليوم\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.DTO.csproj.CoreCompileInputs.cache
+D:\اخر اليوم\API\DoctorDiet.DTO\obj\Release\net7.0\DoctorDiet.DTO.csproj.CopyComplete
+D:\اخر اليوم\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.DTO.dll
+D:\اخر اليوم\API\DoctorDiet.Dto\obj\Release\net7.0\refint\DoctorDiet.DTO.dll
+D:\اخر اليوم\API\DoctorDiet.Dto\obj\Release\net7.0\DoctorDiet.DTO.pdb
+D:\اخر اليوم\API\DoctorDiet.DTO\obj\Release\net7.0\ref\DoctorDiet.DTO.dll

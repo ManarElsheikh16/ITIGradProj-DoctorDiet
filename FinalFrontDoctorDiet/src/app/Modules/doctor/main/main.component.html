@@ -1,0 +1,66 @@
+<div class="row ">
+    <div class="sidebar col-md-2 col-12 ">
+        <header class="sidebar_header " style="text-align: center; ">
+            <button>
+                <span>
+                    <img src='data:image/png;base64,{{decodedImage}}'>
+                    <span class="d-md-flex d-sm-none">{{userName}}</span>
+                </span>
+            </button>
+        </header>
+
+
+        <nav class="sidebar_menu">
+            <button routerLink="Welcome">
+                <span>
+
+                    <span class="d-md-flex ">الرئيسية</span>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                </span>
+            </button>
+            <button routerLink="Plans">
+                <span class="text-success">
+
+                    <span class="d-md-flex">الخطط</span>
+                    <i class="fa-solid fa-list-check"></i>
+                </span>
+            </button>
+
+
+
+            <button routerLink="Patients">
+                <span class="text-info">
+
+                    <span class="d-md-flex ">المتابعة</span>
+                    <i class="fa-solid fa-people-arrows"></i>
+                </span>
+            </button>
+
+            <button routerLink="Subscrebtion">
+                <span class="text-warning ">
+
+                    <span class="d-md-flex d-flex" (click)="resetBehavioursubs()">الاشتراكات <div>
+                            <sup>{{ behaviorSubjectforSubscribtionsnumber }}</sup>
+                        </div></span>
+                    <i class="fa-solid fa-bullhorn"></i>
+                </span>
+            </button>
+
+            <button routerLink="Note" (click)="resetBehaviourNotification()">
+                <span class="text-danger ">
+
+                    <span class="d-md-flex d-flex ">التنبيهات <div><sup>{{ behaviorSubjectforCountNotifications
+                                }}</sup></div></span>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+
+                </span>
+            </button>
+        </nav>
+    </div>
+    <div class="col-md-10 col-12" style="height: 85vh;">
+        <router-outlet>
+
+        </router-outlet>
+    </div>
+   
+</div>

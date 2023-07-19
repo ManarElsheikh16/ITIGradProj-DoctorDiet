@@ -1,0 +1,15 @@
+#loginBtn {
+  background: #163A66;
+  background: linear-gradient(to left, #163A66 50%, #005CB8 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+#loginBtn:hover {
+  background-position: left;
+}
+.btnB{
+  background-color:#163A66;
+  color: white;
+  width: 50%;
+  border-radius: 20px;
+  }

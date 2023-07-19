@@ -1,0 +1,735 @@
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\ITI-Tasks\DoctorDiet\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+F:\FreeLancing Jobs\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+F:\DoctorDietAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\DoctorDiet_WebAPI\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\DoctorDietapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\DoctorDietapi\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Desktop\GradProject\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\ITI 9 Months\Api\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\ITI 9 Months\Api\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.DTO.dll
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.DTO.pdb
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\doctorditeWapi\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\doctorditeWapi\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+F:\FreeLancing Jobs\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\samer\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\20106\Desktop\اخر بله\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\final_atmna\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\final_atmna\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\20106\Desktop\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\20106\Desktop\final\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\Mahmoud\final\final\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\final api\final\final\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\final api\final\final\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\20106\Desktop\اخر بله باك\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+E:\New folder\DoctorDiet_WebAPI\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\nadas\OneDrive\Desktop\pull\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+F:\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+F:\pull\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\nadas\OneDrive\Desktop\finallllllllllll'\pull\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\graduateproject\api\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\graduateproject\api\pull\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\manar\pull\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\Graduate_Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\Graduate_Project\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+F:\FreeLancing Jobs\اجدد حاجه جدا\API\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\API\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+F:\API\API\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+F:\API\API\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.DTO.dll
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.DTO.pdb
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\اخر زفت\api\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\اخر زفت\api\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+E:\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+E:\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.dll
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Dto.pdb
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+C:\Users\Electronica Care\Downloads\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.deps.json
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.dll
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Services.pdb
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.dll
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.DTO.dll
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.dll
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.dll
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.DTO.pdb
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Repositories.pdb
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Data.pdb
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\bin\Debug\net7.0\DoctorDiet.Models.pdb
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.dll
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\refint\DoctorDiet.Services.dll
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\DoctorDiet.Services.pdb
+D:\ITI-Tasks\Graduation Project\API\DoctorDiet.Services\obj\Debug\net7.0\ref\DoctorDiet.Services.dll

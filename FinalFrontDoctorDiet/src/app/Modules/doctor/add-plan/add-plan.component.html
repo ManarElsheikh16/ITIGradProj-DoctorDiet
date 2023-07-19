@@ -1,0 +1,300 @@
+<div class="card" style="direction: rtl; @media (max-width: 768px) {
+    .element {
+      overflow: auto;
+   
+    }
+  }
+  ">
+    <div class="card-body  ">
+
+        <ul class="nav nav-tabs custom-tabs">
+
+            <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#addPlan"
+                    style="background-color: #0d1c9e; color: aliceblue;"> + أضافه خطه</button>
+            </li>
+
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#addDay"
+                    style="background-color: #0d1c9e; color: aliceblue">+ أضافه يوم </button>
+            </li>
+
+        </ul>
+
+        <div class="tab-content p-4 ">
+
+            <div class="tab-pane fade show active profile-overview" id="addPlan">
+                <section class="h-100">
+                    <div class="container-fluid h-100 py-5">
+                        <div class=" shopping-cart" style="border-radius: 15px;">
+                            <div class="card-body text-black">
+                                <div class="ml-2 row p-2">
+
+
+                                    <h3>اختر تفاصيل خطتك</h3>
+                                    <form class=" g-2 mt-4 " [formGroup]="PlanForm" (ngSubmit)="addPlan(PlanForm)">
+
+                                        <div *ngIf="NotAdded">
+                                            <div class="confirmation-box">
+                                                <div class="alert alert-danger alert-dismissible fade show"
+                                                    role="alert">
+                                                    يجب ادخال خطه بحد ادني يوم واحد من الوجبات
+                                                    <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                                        aria-label="Close" (click)="hideConfirmation()"></button>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex p-2">
+                                            <div class="form-check mx-2 fs-5 mr-3">
+                                                <input class="form-check-input" type="radio" name="gender" id="male"
+                                                    formControlName="gender" value="0">
+                                                <label class="form-check-label fs-5 text-primary" for="male">
+                                                    Male
+                                                    <i class="fa-solid fa-person"></i></label>
+                                            </div>
+                                            <div class="form-check fs-5">
+                                                <input class="form-check-input" type="radio" name="gender"
+                                                    formControlName="gender" id="female" value="1">
+                                                <label class="form-check-label fs-5" style="color: rgb(249, 92, 118);"
+                                                    for="female">
+                                                    Female
+                                                    <i class="fa-solid fa-person-dress"></i> </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+
+                                            <div class="col-6">
+
+                                                <div class="form-group  mb-3">
+                                                    <label for="caloriesFrom" class=" col-form-label">من (عدد
+                                                        الكالوريز)</label>
+                                                    <div>
+                                                        <input type="number" class="form-control" id="caloriesFrom"
+                                                            formControlName="CaloriesFrom" />
+                                                    </div>
+                                                </div>
+                                                <div *ngIf="CaloriesFrom?.errors != null && CaloriesFrom?.touched">
+                                                    <p *ngIf="CaloriesFrom?.errors?.['required']" class="text-danger">
+                                                        يجب ادخال
+                                                    </p>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+
+                                                <div class="form-group  mb-3">
+                                                    <label for="caloriesFrom" class=" col-3 col-form-label"> إلى</label>
+                                                    <div class="col">
+                                                        <input type="number" class="form-control" id="caloriesFrom"
+                                                            formControlName="CaloriesTo" />
+                                                    </div>
+                                                </div>
+                                                <div *ngIf="CaloriesTO?.errors != null && CaloriesTO?.touched">
+                                                    <p *ngIf="CaloriesTO?.errors?.['required']" class="text-danger">
+                                                        يجب ادخال
+                                                    </p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+
+                                                <div class="form-group row mb-3">
+                                                    <label for="duration" class="col-md-2 col-5 col-form-label">مدة
+                                                        الخطة </label>
+                                                    <div class="col-md-4 col-7">
+                                                        <input type="number" class="form-control" id="duration"
+                                                            formControlName="duration" />
+
+                                                    </div>
+                                                    <div class="col-md-6 col-12  m-auto">
+                                                        <ul class="list-group list-group-horizontal mt-md-0 mt-2"
+                                                            formControlName="goal">
+                                                            <li class="list-group-item border"
+                                                                [class.selected]="selectedOption === option"
+                                                                *ngFor="let option of options "
+                                                                (click)="selectOption(option)">
+                                                                {{ option }}
+                                                            </li>
+                                                        </ul>
+
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div *ngIf="duration?.errors != null && duration?.touched">
+                                                    <p *ngIf="duration?.errors?.['required']" class="text-danger">
+                                                        يجب ادخال
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row " style="text-align: center;">
+                                            <div class="">
+                                                <div class="" style="text-align: center;">
+                                                    <button type="submit" class="btn" >حفظ الخطة</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="tab-pane fade profile-settings" id="addDay"
+            style="direction: ltr; overflow-y: auto; overflow-x: hidden; height: 68vh;">
+
+
+            <div class="row text-center">
+                <div class="flex row">
+                    <div class="text-center mt-3 col-md-4 col-6">
+                        <button type="submit" class="btn col-3 bg-success w-50 " (click)="addDayList()">
+                            حفظ يوم
+                        </button>
+                    </div>
+                    <span class="text-center col-4 my-auto fs-4">اضافه يوم بوجباته </span>
+
+
+                </div>
+
+
+                <form [formGroup]="MealForm" (ngSubmit)="AddMeal(MealForm)" class="text-center">
+
+                    <div class="  my-3">
+                        <select name="catogry" (change)="ChangeCatigory()" id="catogry" formControlName="categoryID">
+                            <option selected disabled value="categoryID">التصنيف</option>
+                            <option value="0">الإفطار</option>
+                            <option value="1">الغداء</option>
+                            <option value="2">العشاء</option>
+                            <option value="3">السحور</option>
+                            <option value="4">سناكس</option>
+
+                        </select>
+                        <select name="Meals" id="Meals" formControlName="TypeMeal">
+                            <option selected disabled value="TypeMeal">تحديد الوجبة</option>
+                            <option *ngFor="let item of MealLists  let i = index;" value="{{i}}">{{item}}</option>
+                        </select>
+
+                        <select name="All Meals" (change)="AddMealToText()" id="AllMeals">
+                            <option selected disabled value="JLC">اختار الكلمات المساعدة</option>
+                            <option *ngFor="let item of SubMeals" value="JLC">{{item}}</option>
+                        </select>
+                    </div>
+                    <div class="text-center">
+                        <img id="preview" class="img-thumbnail" style="display: none; width:200px ;">
+                    </div>
+
+                    <div class="col-md-6 mt-5 m-auto  text-center">
+
+
+                        <div class="text-input">
+                            <input type="text" id="input1" formControlName="description" placeholder="اضف الوجبه "
+                                style="text-align: center;" />
+                            <label class="input1 " id="lable1"> التصنيف</label>
+
+
+                            <div *ngIf="description?.errors != null && description?.touched">
+                                <p *ngIf="description?.errors?.['required']" class="text-danger">
+                                    يجب ادخال
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="form-group mt-4 row mb-3">
+
+                            <label for="formFile" class="col-ms-2 col-0 col-form-label">أضف صورة الوجبة</label>
+                            <div class="col-12">
+                                <input class="form-control" type="file" id="formFile"
+                                    (change)="previewImage($event); imageuplud($event)" formControlName="imgMeal">
+
+                            </div>
+                        </div>
+                        <div class="">
+                            <button type="submit" class="btn">
+                                حفظ وجبة
+                            </button>
+                        </div>
+
+                        <div *ngIf="NotMealAdded">
+                            <div class="confirmation-box">
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    يجب ادخال كل مدخلات الوجبه
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"
+                                        (click)="hideConfirmationMeal()"></button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </form>
+                <div *ngIf="AddDayDone">
+                    <div class="confirmation-box">
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            تم ادخال اليوم بنجاح
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"
+                                (click)="hideAddDayDone()"></button>
+                        </div>
+                    </div>
+
+                </div>
+                <div *ngIf="NoDayAdded">
+                    <div class="confirmation-box">
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            يجب ادخال حد ادني وجبه في اليوم
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"
+                                (click)="hideConfirmationDay()"></button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+           
+    </div>
+</div>
+
+<div class="overlay" *ngIf="showOverly">
+    <div class="spinner">
+      <!-- Add your spinner HTML or component here -->
+      <!-- For example, you can use a library like ngx-spinner or create your own spinner -->
+    </div>
+  <div class="text"> ...جارى حفظ الخطة </div>
+
+  </div>

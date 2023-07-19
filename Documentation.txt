@@ -1,0 +1,85 @@
+Problem:
+
+our website is specialized for Nutrition Doctor to make it easier for the doctor and patient to communicate with each other instead of the doctor can follow up every patient by writing prescription our website supports the feature that the doctor can folow up his patients in his dashboard by showing the current plans for every patient or Plans outdated, the site shows for every patient what he should eat in every day.
+
+***************************************************************************************************************************************************************************
+
+Description:
+
+The project was requested by a client on a mostaqel platform.
+this website is required for a nutritionist and obesity doctor.The patient registeres in our website ,subscribed with any doctor he want and the doctor will assign a custom plan for him based on register form or can assign specific custom plan to specific patient ,The site contains detailed patient data such as weight, height, and so on and his custom plans whether it is old or new. the patient follows up his diet day by day by showing him what he should eat in this day whether breakfast ,lunch,dinner and so on, there is a link between the patient and the doctor for follow-up (our website supports that the patient can add note in specific day and the doctor recievied his note as notifications in doctor dashboard and the doctor can reply to specific patient or update the specific meal in specific day for that patient).
+
+***************************************************************************************************************************************************************************
+
+Features:
+Home :description for site and you can register as patient or as a doctor 
+
+1-Doctor Dashboard:
+
+#Profile:
+
+1- Overview:
+the site show the doctor information such as :Full Name - Email - Phone Number  - Location - Specialization
+
+2- Update doctor information:
+the doctor can update his information such as (Full Name - Email - Phone Number - Image - Location - Specialization)
+
+3- Change password:
+the doctor can change his password easily by writing his new password and confirmed his new password
+
+#Dashboard:
+
+1- Doctor Plans:
+in this page the doctor appears to him all plans with this details ( Calories From - Calories To - Duration ) and three buttons ( Details - Update - Delete )
+
+Details: doctor can show this plan days and inside every day can show all meals and doctor can update in sprcific meal ( description - Image )
+Update: doctor can update specific plan ( Calories From - Calories To - Duration - Gender - Goal )
+Delete: doctor can delete specific plan
+Add: doctor can add his detaild plan with all days and with all meals easily
+
+2- Patient Follow-up:
+
+#the doctor shows all patients that subscribed with him in specific custom plan (Image - Full Name - Email - Phone Number ) inside every patient doctor can show more details about patient such as ( Age - Height - Weight - date of his subscribtion - Max Calories - Min Calories) 
+
+#Patient plans and subscriptions:
+doctor can show in every patient his current custom plans with color green and outdated custom plans with color blue black ( duration - Goal - Doctor ) and inside every custom plan doctor can show all days with all meals in specific day  and the doctor can update in this meal or add note to him 
+
+#Patients subscriptions:
+the doctor can show his requests from all patients that wanted to subscribed with him in specific plan ,there is two buttons that he can accept or reject
+
+#Notifications:
+the doctor can show all patients notes in specific day and when click in specific patient note we redirct it to the current current custom plan meals and doctor can reply to this patient that the patient make this note in this day 
+
+
+***************************************************************************************************************************************************************************
+
+2- Patient Profile:
+
+#Register Form:
+the site takes data from patient such as height,weight.activity rate,goal so the doctor can know his calories ,our website support this by making an equation to calculate his calories.
+
+#Login Form:
+ 
+the site take his username and password (patient can show his passsword) and when he forget his password ,he can change it easily by enter his username and then show his question that he entered in his registeration form ,when he answered his question correct and write his new password ,we redirect it to Login Form.
+
+#Profile:
+
+1- Overview:
+the site show his information such as :Full Name - Height - Weight - Min Calories - Max Calories - Email - Phone Number  - Age
+
+2- Your plans and subscription:
+the site show for patient his current custom plans with color green and outdated customs plans  with color blue black (Goal - Doctor - duration)
+
+3- Modify your data:
+the patient can update his information such as (Full Name - Height - Weight - Email - Phone Number - disease name - Image)
+
+4- Change password:
+the patient can change his password easily by writing his new password and confirmed his new password
+
+#patient custom plan:
+our site show every day what meals he should eat and when occured any problem with the patient ,the patient can add note to the the doctor who subscribred with him in specific plan,
+the reply of doctor also displayed in this page.
+
+
+
+

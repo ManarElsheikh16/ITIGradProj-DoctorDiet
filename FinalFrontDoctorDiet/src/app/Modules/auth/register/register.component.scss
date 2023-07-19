@@ -1,0 +1,187 @@
+body {
+  overflow: hidden
+}
+
+.input-group {
+  position: relative;
+}
+
+.error-messages {
+  margin-top: 5px;
+}
+
+.error-messages p {
+  margin: 0;
+  font-size: 12px;
+}
+
+
+button {
+  transition: .3s all ease;
+
+  &:hover,
+  &:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.btnB {
+  background-color: #0f62c6;
+  color: white;
+  width: 50%;
+  border-radius: 20px;
+}
+
+
+#loginBtn {
+  background: #0f62c6;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+}
+
+#loginBtn:hover {
+  background-position: left;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+
+body {
+  font-family: font-primary;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: normal;
+  background: #fafafa;
+  color: lighten(black, 50%);
+}
+
+a {
+  transition: .3s all ease;
+  color: primary;
+
+  &:hover,
+  &:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+button {
+  transition: .3s all ease;
+
+  &:hover,
+  &:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  line-height: 1.5;
+  font-weight: 400;
+  // font-family: font-primary;
+  color: black;
+}
+
+
+.ftco-section {
+  padding: 7em 0;
+}
+
+.ftco-no-pt {
+  padding-top: 0;
+}
+
+.ftco-no-pb {
+  padding-bottom: 0;
+}
+
+//HEADING SECTION
+.heading-section {
+  font-size: 28px;
+  color: black;
+
+  small {
+    font-size: 18px;
+  }
+}
+
+//COVER BG
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.check {
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+
+  }
+
+  label span {
+    transition: transform 0.3s;
+  }
+
+  input[type="checkbox"]:checked+label span {
+    transform: translateY(-50%);
+  }
+
+  label {
+    transition: background-color 0.3s;
+  }
+
+  input[type="checkbox"]:checked+label {
+    background-color: #005CB8;
+    color: #fff;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.2);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .custom-label {
+    display: inline-block;
+    width: 100%;
+  }
+}

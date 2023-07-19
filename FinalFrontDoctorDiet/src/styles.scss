@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+
+  @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;700&display=swap');
+  @import 'primeng/resources/primeng.min.css';
+  @import 'primeng/resources/themes/bootstrap4-light-blue/theme.css';
+  
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+  
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+   
+    overflow-x: hidden;
+     padding: 0;
+    margin: 0;
+  }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.custom-dialog-container {
+  margin-top: 5%;
+  height: 45rem;
+    width: 30.152rem;
+}
+
+@media (max-width: 768px) {
+  .custom-dialog-container {
+    margin-top: 15%;
+    height: 0rem;
+    width: 30rem;
+   
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-dialog-container {
+    margin-top: 25%;
+    height: 20rem;
+    width: 30rem;
+  }
+}

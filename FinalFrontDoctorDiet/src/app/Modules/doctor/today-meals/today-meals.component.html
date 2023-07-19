@@ -1,0 +1,64 @@
+<div class="row co">
+    <div class="    m-auto  mt-5">
+
+        <h2 class="text-center fs-1">الوجبات </h2>
+        <div class="col-md-5 col-12 m-auto">
+
+            <div class="text-input d-flex " *ngFor="let breakFast of breakFast">
+
+                <input type="text" id="input1" disabled 
+                    [value]="breakFast?.description">
+                <label class="input1" routerLink="/doctor/dash/ُEditMeal/{{breakFast?.id}}">فطار </label>
+                <div class="col mx-4 ">
+                    <button class="btn" routerLink="/doctor/dash/ُEditMeal/{{planId}}/{{breakFast?.id}}">تعديل</button>
+                </div>
+            </div>
+
+            <div class="text-input d-flex" *ngFor="let lunchData of Lunch">
+                <input type="text" id="input1" disabled [value]="lunchData?.description">
+                <label class="input1">&nbsp;&nbsp;غداء&nbsp;</label>
+                <div class="col mx-4 ">
+                    <button class="btn" routerLink="/doctor/dash/ُEditMeal//{{planId}}/{{lunchData?.id}}">تعديل</button>
+                </div>
+            </div>
+
+                
+
+            <div class="text-input d-flex" *ngFor="let Dinner of Dinner">
+                <input type="text" id="input1" disabled 
+                    [value]="Dinner?.description">
+                <label class="input1">&nbsp;&nbsp;عشاء&nbsp;&nbsp;</label>
+                <div class="col mx-4">
+                    <button class="btn" routerLink="/doctor/dash/ُEditMeal//{{planId}}/{{Dinner?.id}}">تعديل</button>
+                </div>
+            </div>
+
+            <div class="text-input d-flex" *ngFor="let snaks of snaks">
+                <input type="text" id="input1" disabled 
+                    [value]="snaks?.description">
+                <label class="input1">&nbsp;&nbsp;سناك&nbsp;&nbsp;</label>
+                <div class="col mx-4 ">
+                    <button class="btn" routerLink="/doctor/dash/ُEditMeal/{{planId}}/{{snaks?.id}}">تعديل</button>
+                </div>
+            </div>
+
+
+
+
+            <div class="text-input d-flex" *ngFor="let sohor of sohor">
+                <input type="text" id="input1" disabled 
+                    [value]="sohor?.description">
+                <label class="input1">&nbsp;&nbsp;سناك&nbsp;&nbsp;</label>
+                <div class="col mx-4 ">
+                    <button class="btn" routerLink="/doctor/dash/ُEditMeal/{{planId}}/{{sohor?.id}}">تعديل</button>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+</div>

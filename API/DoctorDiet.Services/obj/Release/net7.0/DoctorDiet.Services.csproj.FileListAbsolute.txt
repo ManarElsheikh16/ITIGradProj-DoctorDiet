@@ -1,0 +1,42 @@
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Services.deps.json
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Services.dll
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Services.pdb
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Data.dll
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Dto.dll
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Models.dll
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Repositories.dll
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Dto.pdb
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Repositories.pdb
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Data.pdb
+E:\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Models.pdb
+E:\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+E:\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+E:\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+E:\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+E:\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.csproj.CopyComplete
+E:\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.dll
+E:\API\DoctorDiet.Services\obj\Release\net7.0\refint\DoctorDiet.Services.dll
+E:\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.pdb
+E:\API\DoctorDiet.Services\obj\Release\net7.0\ref\DoctorDiet.Services.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Services.deps.json
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Services.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Services.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Data.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.DTO.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Models.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Repositories.dll
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.DTO.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Repositories.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Data.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\bin\Release\net7.0\DoctorDiet.Models.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.csproj.AssemblyReference.cache
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.AssemblyInfoInputs.cache
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.AssemblyInfo.cs
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.csproj.CoreCompileInputs.cache
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.csproj.CopyComplete
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.dll
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\refint\DoctorDiet.Services.dll
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\DoctorDiet.Services.pdb
+D:\اخر اليوم\API\DoctorDiet.Services\obj\Release\net7.0\ref\DoctorDiet.Services.dll

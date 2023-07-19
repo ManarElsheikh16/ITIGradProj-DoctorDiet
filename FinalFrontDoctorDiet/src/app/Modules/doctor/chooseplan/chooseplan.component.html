@@ -1,0 +1,83 @@
+<div class="row mt-4 contain" style="text-align: center;">
+    <span class="fw-bold fs-4" style="color:  #0d1c9e;">الخطط</span>
+  
+    </div>
+    <div class="row  ms-4">
+      <div class="col-9"></div>
+      <div *ngIf="showDone" class="confirmation-box row" dir="rtl">
+        <div class="alert alert-success alert-dismissible fade show  col-6" role="alert" dir="rtl">
+          تم  تحديد الخطه بنجاح 
+          <button type="button text-light" class="btn-close" data-bs-dismiss="alert" aria-label="Close" (click)="hideConfirmation()"></button>
+        </div>
+      
+   
+      </div>
+
+      <button routerLink="/doctor/dash/AddPlan" class="btn btn-primary col-2 mb-3">أضافة خطة</button>
+    
+    
+    </div>
+    <div class="row mt-2 mx-4 plans flex-wrap">
+      <h2 class="col-12"  style="color:  #0d1c9e; text-align: center; ">خطط خسارة الوزن</h2>
+                        
+                      <div class=" col-sm-12 col-md-4 text-center" *ngFor="let plans of LossWeight" >
+    
+                        <div class="animate__animated animate bounce card " >
+                          <div class="container p- ">
+                            <img  src="assets/plans.webp" class="card-img-top p-3" alt="..."  loading="lazy" name="favj"></div>
+                            <div class="card-body">
+                              <h4 class="card-title ms-1">كالوريز</h4>
+                            <h4 class="card-title ms-1"> {{plans.caloriesFrom}} - {{plans.caloriesTo}}</h4>
+                            <p class="card-text mb-1 ms-1">المده : {{plans.duration}}</p>
+                            <p class="card-text mb-1 ms-1">الهدف : {{plans.goal}}</p>
+                            <p class="card-text mb-3 ms-1">النوع : {{plans.gender}}</p>
+                            <a (click)="GOToplan(plans.id)" target="_blank" class="btn btn-primary mb-1 mx-1 mt-1 ">تفاصيل</a>
+                            <a (click)="chooseplan(plans.id)" target="_blank" class="btn btn-success mb-1 mt-1 ">تحديد</a>
+                          </div>
+                        </div>
+                  </div>
+                  <h2 class="col-12"  style="color:  #0d1c9e; text-align: center;">خطط زيادة الوزن</h2>
+                        
+                  <div class=" col-sm-12 col-md-4 text-center" *ngFor="let plans of GainWeight" >
+    
+                    <div class="animate__animated animate bounce card " >
+                      <div class="container p- ">
+                        <img  src="assets/plans.webp" class="card-img-top p-3" alt="..."  loading="lazy" name="imgg"></div>
+                        <div class="card-body">
+                          <h4 class="card-title ms-1">كالوريز</h4>
+                        <h4 class="card-title ms-1"> {{plans.caloriesFrom}} - {{plans.caloriesTo}}</h4>
+                        <p class="card-text mb-1 ms-1">المده : {{plans.duration}}</p>
+                        <p class="card-text mb-1 ms-1">الهدف : {{plans.goal}}</p>
+                        <p class="card-text mb-3 ms-1">النوع : {{plans.gender}}</p>
+                        <a (click)="GOToplan(plans.id)" target="_blank" class="btn btn-primary mb-1 mx-1 mt-1 ">تفاصيل</a>
+                        <a (click)="chooseplan(plans.id)" target="_blank" class="btn btn-success mb-1 mt-1 ">تحديد</a>
+                      </div>
+                    </div>
+              </div>
+              <h2 class="col-12"  style="color:  #0d1c9e; text-align: center;">خطط تكوين العضلات</h2>
+                
+              <div class=" col-sm-12 col-md-4 text-center" *ngFor="let plans of Muscles" >
+    
+                <div class="animate__animated animate bounce card " >
+                  <div class="container p- ">
+                    <img  src="assets/plans.webp" class="card-img-top p-3" alt="..."  loading="lazy" name="favj"></div>
+                    <div class="card-body">
+                      <h4 class="card-title ms-1">كالوريز</h4>
+                    <h4 class="card-title ms-1"> {{plans.caloriesFrom}} - {{plans.caloriesTo}}</h4>
+                    <p class="card-text mb-1 ms-1">المده : {{plans.duration}}</p>
+                    <p class="card-text mb-1 ms-1">الهدف : {{plans.goal}}</p>
+                    <p class="card-text mb-3 ms-1">النوع : {{plans.gender}}</p>
+                    <a (click)="GOToplan(plans.id)" target="_blank" class="btn btn-primary mb-1 mx-1 mt-1 ">تفاصيل</a>
+                    <a (click)="chooseplan(plans.id)" target="_blank" class="btn btn-success mb-1 mt-1 ">تحديد</a>
+                  </div>
+                </div>
+          </div>
+                
+  </div>
+
+  
+  <div class="overlay" *ngIf="showOverly">
+    <div class="spinner"></div>
+    <div class="text" > ...جارى تحديد خطة المريض</div>
+  </div>
+    

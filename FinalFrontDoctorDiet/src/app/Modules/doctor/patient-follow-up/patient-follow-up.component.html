@@ -1,0 +1,24 @@
+<div class="container-fluid mb-2">
+    <div class="row"> <span class="fw-bold fs-4 text-center p-4" style="color:  #0d1c9e;">المتابعة</span></div>
+    <div class="row  ">
+        <div class=" col-md-3 col-12 mb-3" *ngFor="let patient of PatientList">
+            <div (click)="navig(patient.id) " class="profile-card-4 card h-80 text-center w-100">
+                <img src='data:image/png;base64,{{patient?.profileImage}}' class="img" style="height: 200px"
+                    loading="lazy" alt="">
+                <div class="profile-content ">
+                    <h4 class="card-title text-start "><i class="fa-solid text-dark  fa-user px-2 ">
+                        </i>{{patient?.fullName}}</h4>
+                    <h4 class="card-title text-start "><i class="fa-solid text-primary fa-link px-2 ">
+                        </i><a class="link-underline-primary text-decoration-none">{{patient?.email}}</a></h4>
+                    <h4 class="card-title text-start "><i class="fa-solid fa-phone px-2"></i>
+                        {{patient?.phoneNumber}}</h4>
+                    <div class="text-start">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

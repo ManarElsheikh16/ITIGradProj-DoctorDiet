@@ -1,0 +1,119 @@
+<div class="tab-content p-4 " dir="rtl">
+
+    <div class="tab-pane  show active profile-overview" id="addPlan">
+        <section class="h-100">
+            <div class="container-fluid h-100 py-5">
+                <div class=" shopping-cart" style="border-radius: 15px;">
+                    <div class="card-body text-black">
+                        <div class="ml-2 row p-2">
+
+
+                            <h3  >تعديل تفاصيل خطتك</h3>
+                            <form class=" g-2 mt-4 ">
+
+                                <div class="d-flex p-2">
+                                    <div class="form-check mx-2 fs-5 mr-3">
+                                        <input class="form-check-input" type="radio" name="gender" id="male"
+                                            (change)="onInputChange('gender', $event.target)" value="0">
+                                        <label class="form-check-label fs-5 text-primary" for="male">
+                                            Male
+                                            <i class="fa-solid fa-person"></i></label>
+                                    </div>
+                                    <div class="form-check fs-5">
+                                        <input class="form-check-input" type="radio" name="gender" id="female" value="1"
+                                            (change)="onInputChange('gender', $event.target)">
+                                        <label class="form-check-label fs-5" style="color: rgb(223, 67, 93);" for="female">
+                                            Female
+                                            <i class="fa-solid fa-person-dress"></i> </label>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="col-6">
+
+                                        <div class="form-group  mb-3">
+                                            <label for="caloriesFrom" class=" col-form-label">من (عدد الكالوريز)</label>
+                                            <div>
+                                                <input type="number" name="CaloriesFrom" class="form-control"
+                                                    id="caloriesFrom" [(ngModel)]="myPlan.CaloriesFrom"
+                                                    (ngModelChange)="onInputChange('CaloriesFrom', $event)" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+
+                                        <div class="form-group  mb-3">
+                                            <label for="CaloriesTo" class=" col-3 col-form-label"> إلى</label>
+                                            <div class="col">
+                                                <input type="number" name="CaloriesTo" class="form-control"
+                                                    id="CaloriesTo" [(ngModel)]="myPlan.CaloriesTo"
+                                                    (ngModelChange)="onInputChange('CaloriesTo', $event)" />
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+
+                                        <div class="form-group row mb-3">
+                                            <label for="duration" class="col-md-2 col-5 col-form-label">مدة الخطة
+                                            </label>
+                                            <div class="col-md-4 col-7">
+                                                <input type="number" name="Duration" class="form-control" id="duration"
+                                                    [(ngModel)]="myPlan.Duration"
+                                                    (ngModelChange)="onInputChange('Duration', $event)" />
+
+                                            </div>
+                                            <div class="col-md-6 col-8  m-auto">
+                                                <ul class="list-group list-group-horizontal mt-md-0 mt-2">
+
+
+                                                    <li class="list-group-item border" id="one"
+                                                        [class.selected]="selectedOption === 'التخسيس'"
+                                                        (click)="selectOption('التخسيس')">
+                                                        التخسيس
+                                                    </li>
+                                                    <li class="list-group-item border " id="two"
+                                                        [class.selected]="selectedOption === 'زيادة الوزن'"
+                                                        (click)="selectOption('زيادة الوزن')">
+                                                        زيادة الوزن
+                                                    </li>
+                                                    <li class="list-group-item border" id="three"
+                                                        [class.selected]="selectedOption === 'تكوين العضلات'"
+                                                        (click)="selectOption('تكوين العضلات')">
+                                                        تكوين العضلات
+                                                                   </li>
+                                                </ul>
+
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row " style="text-align: center;">
+                                    <div class="">
+                                        <div class="" style="text-align: center;">
+                                            <button type="submit" (click)="UpdatePlan()" class="btn ">حفظ تعديل
+                                                الخطة</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+    </div>
+
+</div>

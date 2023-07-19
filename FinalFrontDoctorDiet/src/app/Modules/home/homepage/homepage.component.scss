@@ -1,0 +1,285 @@
+body {
+  overflow-x: hidden;
+   background-color: #a51c1c;
+   font-family: 'El Messiri', sans-serif;
+}
+
+.container-fluid {
+   padding: 0;
+
+}
+#portfolio{
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 64%;
+   background-position: center;
+}
+
+.profile-card-4 {
+
+   background-color: #FFF;
+   border-radius: 5px;
+   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+   position: relative;
+
+
+}
+
+.profile-card-4 img {
+   transition: all 0.25s linear;
+   height: 280px;
+}
+
+.profile-card-4 .profile-content {
+   position: relative;
+
+   background-color: #FFF;
+}
+
+.profile-card-4 .profile-name {
+   font-weight: bold;
+   position: absolute;
+   left: 0px;
+   right: 0px;
+   top: -70px;
+   color: #FFF;
+   font-size: 17px;
+}
+
+.profile-card-4 .profile-name p {
+   font-weight: 600;
+   font-size: 13px;
+   letter-spacing: 1.5px;
+}
+
+
+
+.profile-card-4 .profile-overview {
+   padding: 15px 0px;
+}
+
+.profile-card-4 .profile-overview p {
+   font-size: 10px;
+   font-weight: 600;
+   color: #777;
+}
+
+.profile-card-4 .profile-overview h4 {
+   color: #273751;
+   font-weight: bold;
+}
+
+.profile-card-4 .profile-content::before {
+
+   position: absolute;
+   height: 20px;
+   top: -10px;
+   left: 0px;
+   right: 0px;
+   background-color: #FFF;
+   z-index: 0;
+   transform: skewY(3deg);
+}
+
+.profile-card-4:hover img {
+ filter: brightness(115%);
+}
+
+.row{
+   padding-top: 7%;
+}
+.card{
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.card:hover{
+   box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;   transition: .3s all ease-in-out;
+
+}
+h5{
+   font-family: 'El Messiri', sans-serif;
+}
+h1{
+   font-family: 'El Messiri', sans-serif;
+}
+
+@media screen and (max-width: 967px) {
+   .container-fluid {
+       width: 600px;
+   }
+}
+
+
+
+.geeks {
+   width: 50%;
+   height: 2px;
+   position: relative;
+   top: 45%;
+   left: 25%;
+   transform: translateX(-50%);
+}
+
+.geeks::before {
+     position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgb(6, 6, 6);
+   animation: animate 6s linear infinite;
+}
+
+
+
+
+@keyframes animate {
+   0% {
+       left: 0;
+   }
+
+   50% {
+       left: 100%;
+   }
+
+   0% {
+       left: 0;
+   }
+}
+
+.paragraph {
+
+   font-size: 20px;
+   line-height: 1.5;
+   color: black;
+   text-align: justify;
+   background-color:#F2F2F2;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   transition: background-color 0.3s ease;
+}
+.fa-diamond{
+   color: #CA9873;
+}
+paragraph:hover {
+   background-color: #e0e0e0;
+}
+
+.fixed-paragraph {
+   position: fixed;
+   bottom: 20px;
+   left: 20px;
+   padding: 10px;
+   background-color: #f2f2f2;
+   color: #333;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   bottom: 350px;
+   left: 10px;
+   z-index: 155;
+   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.7);
+   animation: upAndDownAnimation 3s infinite;
+}
+
+@keyframes upAndDownAnimation {
+   0% {
+       transform: translateY(0);
+   }
+
+   50% {
+       transform: translateY(-10px);
+   }
+
+   100% {
+       transform: translateY(0);
+   }
+}
+
+
+.fixed-paragraph button {
+   margin-left: 10px;
+}
+
+.fixed-paragraph i {
+   margin-left: 10px;
+   cursor: pointer;
+}
+
+.fixed-paragraph i:hover {
+   color: #007bff;
+}
+
+
+.landing {
+   min-height: 100vh;
+   background-image: url(../../../../assets/background.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-color: #1f2021;
+   position: relative;
+}
+
+.landing .overlay {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.025);
+   top: 0;
+   left: 0;
+}
+
+.landing .text {
+   position: absolute;
+   right: 0;
+   top: 50%;
+   transform: translateY(-10%);
+   background-color: rgba(216, 216, 216, 0.307);
+   padding: 50px;
+   width: 35%;
+   color: black;
+   display: flex;
+   justify-content: flex-end;
+}
+
+@media (max-width :767px) {
+   .landing .text {
+       width: 100%;
+   }
+
+   .landing .text .content {
+       width: 100%;
+   }
+
+
+}
+
+.landing .text .content {
+   max-width: 500px;
+}
+
+.landing .text .content h2 {
+   font-size: 32px;
+   font-weight: normal;
+   line-height: 1.5;
+   margin-bottom: 30px;
+   font-weight: bolder;
+
+}
+
+.landing .text .content h2 span {
+   font-size: 27px;
+   font-weight: 400;
+
+}
+
+.landing .text .content p {
+   font-size: 18px;
+   line-height: 2;
+}
+
+.btnB {
+   background-color: #264572;
+   color: #ffffff;
+}

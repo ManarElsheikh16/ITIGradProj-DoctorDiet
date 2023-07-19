@@ -1,0 +1,323 @@
+<section class="text-center text-lg-start">
+
+  <div class="container py-4">
+    <div class="row g-0 align-items-center">
+      <div class=" mb-5 mb-lg-0">
+        <div class="card cascading-right" style="
+                background: hsla(0, 0%, 100%, 0.55);
+                backdrop-filter: blur(30px); ">
+          <div class="card-body p-5 shadow-5 text-center">
+            <div class="ro">
+              <h2 class="fw-bold mb-5" style="font-size: xx-large; color: #0f62c6;">!قم بالتسجيل الان</h2>
+            </div>
+            <form [formGroup]="DoctorRegisterForm" (ngSubmit)="onSubmit(DoctorRegisterForm)">
+              <div class="row">
+
+                  <div class="row my-2">
+
+                      <div *ngIf="error" class="alert alert-danger m-2"> {{error}} </div>
+                  </div>
+                <div class="form-outline mb-5 col-md-6">
+                  <div class="input-group">
+
+                    <input type="text" id="username" class="form-control text-center" formControlName="username"
+                      style="direction: rtl; " placeholder="ادخل أسم المستخدم" />
+                    <span class="input-group-text">
+                      <i class="fa-solid fa-circle-user fa-lg" style="color:#163A66;"></i>
+                    </span>
+                  </div>
+                  <div *ngIf="UserName?.errors != null && UserName?.touched">
+                    <p *ngIf="UserName?.errors?.['required']" class="text-danger">
+                      ادخل اسم المستخدم
+                    </p>
+                    <p class="text-danger" *ngIf="UserName?.errors?.['minlength']">
+                      أدخل اسم المستخدم بحد أقل 5 أحرف.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="form-outline mb-5 col-md-6">
+                  <div class="input-group">
+
+                    <input type="text" id="FullName" formControlName="FullName" class="form-control text-center"
+                      style="direction: rtl; " placeholder="ادخل ألاسم كامل" />
+                    <span class="input-group-text">
+
+                      <i class="fa-solid fa-person fa-lg" style="color:#163A66;"></i>
+                      <i class="fa fa-regular fa-input-text fa-lg" style="color:#163A66;"></i>
+
+                    </span>
+                  </div>
+                  <div *ngIf="FullName?.errors != null && FullName?.touched">
+                    <p *ngIf="FullName?.errors?.['required']" class="text-danger">
+                      ادخل الاسم كامل
+                    </p>
+                    <p class="text-danger" *ngIf="FullName?.errors?.['minlength']">
+                      أدخل اسمك بحد أقل 3 أحرف.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="row">
+                <div class="form-outline mb-5 col-md-6">
+                  <div class="input-group">
+                    <input type="text" id="Specialization" formControlName="Specialization" style="direction: rtl; "
+                      placeholder="التخصص" class="form-control text-center" />
+                    <label for="Specialization" class="input-group-text"> &nbsp;
+                      <i class="fa-solid fa-glasses" style="color:#163A66;"></i>
+                    </label>
+                  </div>
+
+                  <div *ngIf="Specialization?.errors != null && Specialization?.touched">
+                    <p *ngIf="Specialization?.errors?.['required']" class="text-danger">
+                      برجاء ادخال التخصص
+                    </p>
+                    <p *ngIf="Specialization?.errors?.['minlength']" class="text-danger">
+                      يجب ان يكون التخصص مكون من حرفين علي الاقل
+                    </p>
+                  </div>
+                </div>
+                <!--  -->
+
+                <div class="form-outline mb-5 col-md-6">
+                  <div class="input-group">
+                    <input type="email" id="email" formControlName="email" style="direction: rtl; "
+                      placeholder="Abc0@gmail.com" class="form-control text-center" />
+                    <label for="email" class="input-group-text"> &nbsp;
+                      <i class="fa-solid fa-envelope fa-lg" style="color:#163A66;"></i>
+                    </label>
+                  </div>
+
+                  <div *ngIf="email?.errors != null && email?.touched">
+                    <p *ngIf="email?.errors?.['required']" class="text-danger">
+                      برجاء ادخال الايميل
+                    </p>
+                    <p *ngIf="email?.errors?.['email']" class="text-danger">
+                      abc@gmail.com يجب ان يكون على هذا الشكل
+                    </p>
+                  </div>
+                </div>
+
+
+
+              </div>
+
+              <div class="form-outline mb-5">
+                <div class="input-group">
+                  <input type="text" id="Location" formControlName="Location" style="direction: rtl; "
+                    placeholder="المكان" class="form-control text-center" />
+                  <label for="Location" class="input-group-text"> &nbsp;
+                    <i class="fa-solid fa-location-dot" style="color:#163A66;"></i>
+
+                  </label>
+                </div>
+
+                <div *ngIf="Location?.errors != null && Location?.touched">
+                  <p *ngIf="Location?.errors?.['required']" class="text-danger">
+                    برجاء ادخال المكان
+                  </p>
+                  <p *ngIf="Specialization?.errors?.['minlength']" class="text-danger">
+                    يجب ان يكون المكان مكون من 3 حروف علي الاقل
+                  </p>
+                </div>
+              </div>
+              <!--  -->
+
+              <div class="row">
+                <div class="form-outline mb-5 col-md-6">
+                  <div class="input-group">
+                    <input type="file" id="formFile" formControlName="ProfileImage" style="direction: rtl; "
+                      class="form-control text-center " (change)="onSelectFile($event)" />
+                    <label for="formFile" class="input-group-text">
+                      صوره الشخصيه
+                      &nbsp;
+                      <i class="fa-solid fa-images" style="color:#163A66;"></i>
+                    </label>
+                  </div>
+                  <!-- -->
+                  <div *ngIf="ProfileImage?.errors != null && ProfileImage?.touched">
+                    <p *ngIf="ProfileImage?.errors?.['required']" class="text-danger">
+                      يجب ادخال صورة البروفايل
+                    </p>
+                  </div>
+                </div>
+
+
+                <div class="form-outline mb-5 col-md-6">
+                  <div class="input-group">
+                    <input type="file" id="formFile" formControlName="SyndicateCarnet" style="direction: rtl; "
+                      class="form-control text-center " (change)="onSelectFile1($event)" />
+                    <label for="formFile" class="input-group-text">
+                      كارنيه النقابه
+                      &nbsp;
+                      <i class="fa-solid fa-images" style="color:#163A66;"></i>
+                    </label>
+                  </div>
+                  <!-- -->
+                  <div *ngIf="SyndicateCarnet?.errors != null && SyndicateCarnet?.touched">
+                    <p *ngIf="SyndicateCarnet?.errors?.['required']" class="text-danger">
+                      يجب ادخال صورةالكارنيه
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+<!--  -->
+              <div class="form-outline mb-5">
+                <div class="input-group">
+                  <input type="text" id="Phone1" formControlName="Phone1" style="direction: rtl; "
+                    placeholder=" رقم التليفون 1"  class="form-control text-center my-3" />
+                  <label for="Phone1" class="input-group-text">
+                    <i class="fa-solid fa-phone-volume " style="color:#163A66"></i>
+                  </label>
+                </div>
+
+                 <div *ngIf="PhoneNumber1?.errors != null && PhoneNumber1?.touched">
+                  <p *ngIf="PhoneNumber1?.errors?.['required']" class="text-danger">
+                    برجاء ادخال المكان
+                  </p>
+                  <p *ngIf="Specialization?.errors?.['minlength']" class="text-danger">
+                    يجب ان يكون المكان مكون من 3 حروف علي الاقل
+                  </p>
+                </div>
+              </div>
+              <div class="form-outline mb-5">
+                <div class="input-group">
+                  <input type="text" id="Phone2" formControlName="Phone2" style="direction: rtl; "
+                    placeholder=" رقم التليفون 2"  class="form-control text-center my-3" />
+                  <label for="Phone2" class="input-group-text">
+                    <i class="fa-solid fa-phone-volume " style="color:#163A66"></i>
+                  </label>
+                </div>
+
+                 <div *ngIf="PhoneNumber2?.errors != null && PhoneNumber2?.touched">
+                  <p *ngIf="PhoneNumber2?.errors?.['required']" class="text-danger">
+                    برجاء ادخال المكان
+                  </p>
+                  <p *ngIf="Specialization?.errors?.['minlength']" class="text-danger">
+                    يجب ان يكون المكان مكون من 3 حروف علي الاقل
+                  </p>
+                </div>
+              </div>
+              <div class="form-outline mb-5">
+                <div class="input-group">
+                  <input type="text" id="Phone3" formControlName="Phone3" style="direction: rtl; "
+                    placeholder=" رقم التليفون 3"  class="form-control text-center my-3" />
+                  <label for="Phone" class="input-group-text">
+                    <i class="fa-solid fa-phone-volume " style="color:#163A66"></i>
+                  </label>
+                </div>
+
+                 <div *ngIf="PhoneNumber3?.errors != null && PhoneNumber3?.touched">
+                  <p *ngIf="PhoneNumber3?.errors?.['required']" class="text-danger">
+                    برجاء ادخال المكان
+                  </p>
+                  <p *ngIf="Specialization?.errors?.['minlength']" class="text-danger">
+                    يجب ان يكون المكان مكون من 3 حروف علي الاقل
+                  </p>
+                </div>
+              </div>
+              <!--  -->
+              <div class="form-outline mb-5">
+                <div class="input-group">
+                  <input type="password" id="password" formControlName="password" class="form-control text-center"
+                    style="direction: rtl; " placeholder="ادخل كلمه السر" />
+                  <span class="input-group-text">
+                    <i class="fa fa-solid fa-lock fa-lg" style="color:#163A66"></i>
+                  </span>
+                </div>
+
+                <div *ngIf="password?.errors != null && password?.touched">
+                  <p *ngIf="password?.errors?.['required']" class="text-danger">
+                    برجاء ادخال كلمه السر
+                  </p>
+                  <p class="text-danger" *ngIf="password?.errors?.['minlength']">
+                    برجاء أدخل كلمه المرور بحد أقل 6 أحرف
+                  </p>
+                  <p class="text-danger" *ngIf="password?.errors?.['maxlength']">
+                    برجاء أدخل كلمه المرور بحد أقل 10 أحرف
+                  </p>
+                  <p *ngIf="password?.errors?.['strong']" class="text-danger">
+                    كلمة المرور غير قوية، يجب أن تحتوي على رقم واحد على الأقل،
+                    حرف كبير واحد، حرف صغير واحد، ورمز واحد.
+                  </p>
+                </div>
+              </div>
+
+              <!--  -->
+              <div class="form-outline mb-4">
+
+
+                <div class="input-group">
+                  <input [class.is-invalid]="confirmPassword?.invalid && confirmPassword?.touched" type="password"
+                    name="confirmPassword" id="cp" formControlName="confirmPassword" style="direction: rtl; "
+                    class="form-control text-center" placeholder="تأكيد كلمة السر">
+
+
+                  <label for="cp" class="input-group-text"> &nbsp;
+                    <i class="fa fa-solid fa-lock fa-lg" style="color:#163A66"></i>
+                  </label>
+
+
+                </div>
+                <div class="text-danger" *ngIf="DoctorRegisterForm.errors?.['misMatch']" class="text-danger">
+                  تأكيد كلمة السر غير متوافقة مع كلمة السر </div>
+
+                <div *ngIf="confirmPassword?.errors !=null && confirmPassword?.touched" class="mt-2">
+
+                  <p *ngIf="confirmPassword?.errors?.['required']"  class="text-danger">برجاء إدخال تأكيد كلمة السر</p>
+                </div>
+              </div>
+
+              <h2 class="text-danger bg-light rounded p-1 w-75 m-auto mb-2">بالرجاء ادخال سؤال واجابة للمساعدة عند نسيان
+                الرقم السري يفضل ان تكون الأجابة كلمة واحدة </h2>
+              <div class="row">
+                <div class="form-outline mb-5">
+                  <div class="input-group">
+                    <input type="text" id="qui" name="qui" formControlName="qui" style="direction: rtl;
+                      " class="form-control text-center" placeholder=" ادخل السؤال" (input)="qui?.markAsTouched()" />
+                    <label for="qui" class="input-group-text">السؤال &nbsp;
+                      <i class="fa-regular fa-circle-question"></i> </label>
+                  </div>
+                  <div *ngIf="qui?.touched && qui?.invalid">
+                    <p *ngIf="qui?.errors?.['required']" class="text-danger">
+                      برجاء ادخال السؤال التذكيرى
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-outline mb-5">
+                  <div class="input-group">
+                    <input type="text" id="answer" name="answer" formControlName="answer" style="direction: rtl;
+                      " class="form-control text-center" placeholder=" ادخل الاجابة"
+                      (input)="answer?.markAsTouched()" />
+                    <label for="answer" class="input-group-text">الاجابة &nbsp;
+                      <i class="fa-regular fa-circle-check"></i> </label>
+                  </div>
+                  <div *ngIf="answer?.touched && answer?.invalid">
+                    <p *ngIf="answer?.errors?.['required']" class="text-danger">
+                      برجاء ادخال أجابة السؤال
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+
+              <button type="submit" id="loginBtn" class="btn btnB btn-block mb-4"
+                [disabled]="DoctorRegisterForm.invalid">
+                تسجيل
+              </button>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>

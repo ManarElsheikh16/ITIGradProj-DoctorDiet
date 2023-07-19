@@ -1,0 +1,311 @@
+<div class="pagetitle mx-5 my-5" style="direction: rtl;">
+
+</div>
+
+<section class="section profile">
+  <div class="row ">
+
+    <div class="col-xl-12 align-items-center col-md-6 col-sm-6 d-flex justify-content-center"
+      style="margin-bottom: 100px;">
+
+      <div class="card col-xl-8" style="direction: rtl;">
+        <div class="card-body ">
+
+          <ul class="nav nav-tabs custom-tabs">
+
+            <li class="nav-item">
+              <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-overview"
+                (click)="GetProfile()">نظرة عامة</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link " data-bs-toggle="tab" data-bs-target="#profile-edit">تعديل
+                بياناتك</button>
+            </li>
+
+            <li class="nav-item">
+              <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-change-password">تغيير كلمة
+                السر</button>
+            </li>
+
+          </ul>
+
+          <div class="tab-content pt-2">
+
+            <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+              <h2 class="card-title my-5" style="color:  #1C4980;font-weight: bold;"><i
+                  class="fa-sharp fa-solid fa-circle-info ms-2" style="font-size: 25px;"></i>معلوماتك</h2>
+              <div class="details-container">
+                <div class="details-item my-4">
+                  <span class="details-label" style="font-weight: bold;">الاسم :</span>
+                  <span class="details-value">{{data?.fullName}}</span>
+                </div>
+                <div class="details-item my-4">
+                  <span class="details-label_3" style="font-weight: bold;">اسم&nbsp;المستخدم :</span>
+                  <span class="details-value">{{data?.userName}}</span>
+                </div>
+                <div class="details-item my-4" *ngFor="let item of data?.contactInfo">
+                  <span class="details-label_3" style="font-weight: bold;">رقم التليفون :</span>
+                  <span class="details-value">{{item.contactInfo}}</span>
+                </div>
+
+                <div class="details-item my-4">
+                  <span class="details-label_3" style="font-weight: bold;"> البريد الالكتروني:</span>
+                  <span class="details-value">{{data?.email}}</span>
+                </div>
+                <div class="details-item my-4">
+                  <span class="details-label" style="font-weight: bold;">تخصص :</span>
+                  <span class="details-value">{{data?.specialization }} </span>
+                </div>
+                <div class="details-item my-4">
+                  <span class="details-label " style="font-weight: bold;">موقع :</span>
+                  <span class="details-value">{{data?.location }}</span>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="tab-pane fade profile-edit" id="profile-edit">
+              <h2 class="card-title" style="color:  #1C4980;font-weight: bold;"><i
+                  class="fa-sharp fa-solid fa-user-pen ms-2"></i>تعديل بياناتك</h2>
+
+              <div *ngIf="showConfirmation" class="confirmation-box">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                  تم تغير بياناتك بنجاح
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"
+                    (click)="hideConfirmation()"></button>
+                </div>
+
+
+              </div>
+              <form [formGroup]="UserInfo">
+                <div class="mb-3">
+                  <label for="name" id="full" class="form-label">اسم كامل</label>
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa-sharp fa-solid fa-signature"></i>
+                    </span>
+                    <input formControlName="fullName" type="text" class="form-control" id="FullName" name="FullName"
+                      placeholder="تعديل اسم كامل" (ngModelChange)="onInputChange('FullName', $event)">
+                  </div>
+
+
+                  <div *ngIf="fullName?.errors != null && fullName?.touched">
+
+                    <p class="text-danger" *ngIf="fullName?.errors?.['minlength']">
+                      أدخل اسم المستخدم بحد أقل 5 أحرف.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">البريد الالكتروني</label>
+
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa-sharp fa-solid fa-envelope"></i>
+                    </span>
+                    <input formControlName="email" type="email" class="form-control" id="email" name="Email"
+                      (ngModelChange)="onInputChange('Email', $event)" placeholder="تعديل بريدك الالكتروني">
+                  </div>
+
+
+                  <div *ngIf="fullName?.errors != null && fullName?.touched">
+
+                    <p class="text-danger" *ngIf="fullName?.errors?.['email']">
+                      ادخل الايميل بشكل صحيح Example@gmail.com
+                    </p>
+                  </div>
+
+                </div>
+
+                <div class="mb-3">
+                  <label for="profileImage" class="form-label">صورتك</label>
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa-sharp fa-solid fa-signature"></i>
+                    </span>
+                    <input formControlName="profileImage" type="file" class="form-control" id="profileImage"
+                      name="ProfileImage" placeholder="تعديل الصورة"
+                      (ngModelChange)="onInputChange('ProfileImage', $event)" (change)="changeImg($event)">
+                  </div>
+
+
+                  <div *ngIf="profileImage?.errors != null && profileImage?.touched">
+
+                    <p class="text-danger" *ngIf="profileImage?.errors?.['required']">
+                      أدخل صورتك.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="mb-3">
+
+                  <label for="text" class="form-label">1التليفون</label>
+
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                    </span>
+
+                    <input formControlName="phoneNumber0" type="text" class="form-control" id="phoneNumber0"
+                      name="phoneNumber0" (ngModelChange)="onInputChange('0', $event)" placeholder="تعديل رقم تليفونك">
+
+                  </div>
+                  <div *ngIf="phoneNumber0?.errors != null && phoneNumber0?.touched">
+
+                    <p class="text-danger" *ngIf="phoneNumber0?.errors?.['pattern']">
+                      أادخل الرقم بشكل صحيح
+                    </p>
+                  </div>
+
+
+                </div>
+                <div class="mb-3"
+                  *ngIf="data?.contactInfo  &&data.contactInfo.length > 1&& data.contactInfo[1]?.contactInfo !== undefined && data.contactInfo[1]?.contactInfo !== ''">
+                  <label for="text" class="form-label">2التليفون</label>
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                    </span>
+                    <input formControlName="phoneNumber1" type="text" class="form-control" id="phoneNumber1"
+                      name="phoneNumber1" (ngModelChange)="onInputChange('1', $event)" placeholder="تعديل رقم تليفونك"
+                      value='{{data?.contactInfo[1]?.contactInfo}}'>
+                  </div>
+                  <div *ngIf="phoneNumber1?.errors != null && phoneNumber1?.touched">
+                    <p class="text-danger" *ngIf="phoneNumber1?.errors?.['pattern']">
+                      أدخل الرقم بشكل صحيح
+                    </p>
+                  </div>
+                </div>
+
+
+                <div class="mb-3"
+                  *ngIf="data?.contactInfo && data.contactInfo.length > 2 && data.contactInfo[2]?.contactInfo !== undefined && data.contactInfo[2]?.contactInfo !== ''">
+                  <label for="text" class="form-label">3التليفون</label>
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa-sharp fa-solid fa-phone-volume"></i>
+                    </span>
+                    <input formControlName="phoneNumber2" type="text" class="form-control" id="phoneNumber2"
+                      name="phoneNumber2" (ngModelChange)="onInputChange('2', $event)" placeholder="تعديل رقم تليفونك"
+                      [value]="data?.contactInfo[2]?.contactInfo">
+                  </div>
+                  <div *ngIf="phoneNumber2?.errors != null && phoneNumber2?.touched">
+                    <p class="text-danger" *ngIf="phoneNumber2?.errors?.['pattern']">
+                      أدخل الرقم بشكل صحيح
+                    </p>
+                  </div>
+                </div>
+
+
+
+
+                <div class="mb-3">
+                  <label for="number" class="form-label">التخصص</label>
+
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa fa-solid fa-glasses"></i>
+                    </span>
+                    <input formControlName="Specializtion" type="text" class="form-control" id="Specializtion"
+                      name="Specializtion" (ngModelChange)="onInputChange('Specialization', $event)"
+                      placeholder="تعديل تخصص">
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label for="number" class="form-label">الموقع</label>
+
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa-sharp fa-solid fa-location-crosshairs"></i>
+                    </span>
+                    <input formControlName="location" type="text" class="form-control" id="location" name="Location"
+                      (ngModelChange)="onInputChange('Location', $event)" placeholder="تعديل موقع">
+                  </div>
+                </div>
+
+
+                <button type="submit" style="background-color: #1C4980;" class="btn btn-primary my-4"
+                  (click)="UpdateUSer()">حفظ التغييرات</button>
+              </form>
+            </div>
+
+            <div class="tab-pane fade profile-change-password" id="profile-change-password">
+              <h2 class="card-title my-5" style="color:  #1C4980;font-weight: bold;"><i
+                  class="fa-sharp fa-solid fa-pen-nib ms-2"></i>تغيير كلمة السر</h2>
+              <div *ngIf="showConfirmation" class="confirmation-box">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                  تم تغير كلمه السر بنجاح
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"
+                    (click)="hideConfirmation()"></button>
+                </div>
+
+
+              </div>
+
+
+              <form [formGroup]="PassForm" (ngSubmit)="onSubmitPass()">
+
+
+                <div class="mb-3">
+                  <label for="new-password" class="form-label">كلمة السر الجديدة</label>
+
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa-sharp fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" class="form-control" id="newpassword" formControlName="password"
+                      placeholder="ادخل كلمة السر الجديدة">
+
+                  </div>
+                  <div *ngIf="newpassword?.touched && newpassword?.invalid">
+                    <p *ngIf="newpassword?.errors?.['required']" class="text-danger">
+                      برجاء ادخال كلمه السر
+                    </p>
+                    <p *ngIf="newpassword?.errors?.['strong'] && newpassword?.dirty" class="text-danger">
+                      كلمة المرور غير قوية، يجب أن تحتوي على رقم واحد على الأقل،
+                      حروف
+                    </p>
+                  </div>
+
+
+                </div>
+
+                <div class="mb-3">
+                  <label for="confirm-password" class="form-label">تأكيد كلمة السر</label>
+
+                  <div class="input-group">
+                    <span class="input-group-text" style="background-color: #1C4980; color: aliceblue;">
+                      <i class="fa-sharp fa-solid fa-lock"></i>
+                    </span>
+                    <input type="password" class="form-control" id="confirmpassword" formControlName="confirmPassword"
+                      placeholder="اعد كتابة كلمة السر">
+
+                                    </div>
+                  <div class="text-danger" *ngIf="PassForm.errors?.['misMatch']">
+                    تأكيد كلمة السر غير متوافقة مع كلمة السر </div>
+
+                  <div *ngIf="confirmpassword?.errors !=null && confirmpassword?.touched" class="mt-2">
+
+                    <p class="text-danger" *ngIf="confirmpassword?.errors?.['required']">برجاء إدخال تأكيد كلمة السر</p>
+                  </div>
+                </div>
+
+
+
+                <button type="submit" style="background-color: #1C4980;" class="btn btn-primary my-4"
+                  [disabled]="PassForm.invalid">تغيير</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

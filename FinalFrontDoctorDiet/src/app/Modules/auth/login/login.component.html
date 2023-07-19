@@ -1,0 +1,97 @@
+<section class="text-center text-lg-start " style="margin-bottom: 5%;">
+
+  <div class="container py-4 ">
+    <div class="row g-0 align-items-center">
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <div class="card cascading-right" style="
+                  background: hsla(0, 0%, 100%, 0.55);
+                  backdrop-filter: blur(30px);
+                  ">
+          <div class="card-body p-5 shadow-5 text-center">
+            <div class="ro">
+              <h1 class="fw-bold mb-5 fa-lg" style="color:#163A66;">تسجيل الدخول</h1>
+            </div>
+
+            <div class="row">
+              <div class="my-1">
+                <div *ngIf="invaliduser" class="alert alert-danger m-2">
+                  {{invaliduser}}
+                </div>
+
+              </div>
+              <form [formGroup]="LoginForm" (ngSubmit)="onSubmit(LoginForm)">
+
+                <div class="form-outline mb-5">
+                  <div class="input-group">
+
+                    <input type="text" id="username" class="form-control text-center" formControlName="username"
+                      style="direction: rtl;  border:none; border-bottom: 1px solid gray;"
+                      placeholder="ادخل أسم المستخدم" />
+                    <span class="input-group-text">
+                      <i class="fa-solid fa-circle-user fa-lg"></i>
+                    </span>
+                  </div>
+                  <div *ngIf="UserName?.errors != null && UserName?.touched">
+                    <p *ngIf="UserName?.errors?.['required']" class="text-danger">
+                      ادخل اسم المستخدم
+                    </p>
+                    <p class="text-danger" *ngIf="UserName?.errors?.['minlength']">
+                      أدخل اسم المستخدم بحد أقل 5 أحرف.
+                    </p>
+                  </div>
+                </div>
+
+
+                <!--  -->
+                <div class="form-outline mb-4">
+                  <div class="input-group">
+                    <input type="password" id="password" formControlName="password" class="form-control text-center"
+                      style="direction: rtl; border:none; border-bottom: 1px solid gray;"
+                      placeholder="ادخل كلمه السر" />
+
+                    <span class="input-group-text">
+                      <i class="fa fa-solid fa-lock"></i>
+                    </span>
+
+                  </div>
+                  <div class="text-start p-1"> <span class=" fa fa-eye" id="eye" type="checkbox" (click)="show()">
+                    </span>
+                  </div>
+                  <div *ngIf="password?.errors != null && password?.touched">
+                    <p *ngIf="password?.errors?.['required']" class="text-danger">
+                      برجاء ادخال كلمه السر
+                    </p>
+                    <p class="text-danger" *ngIf="password?.errors?.['minlength']">
+                      برجاء أدخل كلمه المرور بحد أدني 8 أحرف
+                    </p>
+                    <p class="text-danger" *ngIf="password?.errors?.['maxlength']">
+                      برجاء أدخل كلمه المرور بحد اقصي 10 أحرف
+                    </p>
+                    <p *ngIf="password?.errors?.['strong']" class="text-danger">
+                      كلمة المرور غير قوية، يجب أن مكون من 8 من رقم
+                      حرف صغير
+                    </p>
+                  </div>
+
+
+                </div>
+                <div class="text-start text-danger pt-3">
+                  <a class="text-danger text-decoration-none" routerLink="/auth/ForgetPass"> نسيت كلمة السر؟ </a>
+                </div>
+
+                <button type="submit" id="loginBtn" class="btn btnB btn-block mb-4 mt-md-0 mt-4"
+                  [disabled]="LoginForm.invalid">
+                  دخول
+                </button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-6 mb-5 mb-lg-0">
+        <img src="/assets/logooo.jpg" style="width: auto; height: auto;" loading="lazy" class="w-100 rounded-4 shadow-4"
+          alt="logo." name="logo" />
+      </div>
+    </div>

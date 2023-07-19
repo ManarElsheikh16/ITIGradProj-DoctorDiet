@@ -1,0 +1,226 @@
+<div [ngSwitch]="ISsubscribe">
+    <div *ngSwitchCase="'Confirmed'">
+
+
+        <section class="wrapper my-5" style="margin-top: 150px;">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col text-center mb-5">
+                        <h1 class="display-4" style="text-align: center;">خطتك اليوم</h1>
+                        <p class="lead">اختار وجبة واحدة للفطار والغداء والعشاء من الوجبات المعروضة , و ان قمت بالخروج
+                            عن
+                            الخطة يرجى ترك ملاحظة يومية </p>
+                    </div>
+                </div>
+                <h1 *ngIf="ISbreakfast">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">الأفطار</label>
+                    </div>
+                </h1>
+                <div class="row " style="justify-content: flex-end; ">
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let break of breakfast">
+                        <div class="card text-dark card-has-bg click-col"
+                            style="background-size: cover; background-image:url('data:image/png;base64,{{break.image}}');">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="card-body">
+                                    <h4 class="card-title mt-0 fs-6 text-dark"> {{break.description}}
+                                    </h4>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="media">
+                                        <button class="mr-3 btn blue rounded-1"> أختار</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h1 *ngIf="ISlunch">
+
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">الغداء</label>
+                        </div>
+                    </h1>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let lunch of lunch ">
+                        <div class="card text-dark card-has-bg click-col"
+                            style="background-size: cover; background-image:url('data:image/png;base64,{{lunch.image}}');">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="card-body">
+                                    <h4 class="card-title mt-0 fs-6 text-dark fw-2"> {{lunch.description}}
+                                    </h4>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="media">
+                                        <button class="mr-3 btn blue rounded-1"> أختار</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 *ngIf="ISlunch">
+
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">العشاء</label>
+                        </div>
+                    </h1>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let dinner of dinner">
+                        <div class="card  card-has-bg click-col"
+                            style="background-size: cover; background-image:url('data:image/png;base64,{{dinner.image}}');">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="card-body">
+                                    <h4 class="card-title mt-0 fs-6 "> {{dinner.description}}
+                                    </h4>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="media">
+                                        <button class="mr-3 btn blue rounded-1"> أختار</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 *ngIf="ISsnaks">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">سناك</label>
+                        </div>
+                    </h1>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let snaks of snaks">
+                        <div class="card  card-has-bg click-col"
+                            style="background-size: cover; background-image:url('data:image/png;base64,{{snaks.image}}');">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="card-body">
+                                    <h4 class="card-title mt-0 fs-6 "> {{snaks.description}}
+                                    </h4>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="media">
+                                        <button class="mr-3 btn blue rounded-1"> أختار</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h1 *ngIf="ISsohor">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                            <label class="form-check-label" for="flexSwitchCheckDefault">سحور </label>
+                        </div>
+                    </h1>
+                    <div class="col-sm-6 col-md-4 col-lg-3 mb-4" *ngFor="let sohor of sohor">
+                        <div class="card  card-has-bg click-col"
+                            style="background-size: cover; background-image:url('data:image/png;base64,{{sohor.image}}');">
+                            <div class="card-img-overlay d-flex flex-column">
+                                <div class="card-body">
+                                    <h4 class="card-title mt-0 fs-6 "> {{sohor.description}}
+                                    </h4>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="media">
+                                        <button class="mr-3 btn blue rounded-1"> أختار</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container row bootdey m-auto d-flex">
+            <div class="col-md-6 bootstrap snippets">
+                <div class="panel">
+                    <div class="panel-body">
+                        <textarea *ngFor="let item of data.slice(-2)" class="form-control docnote m-3" disabled
+                            style="text-align: end;" rows="2" placeholder=" لم يكتب لك الطبيب ملاحظة بعد">{{item.text}}
+                    {{item.date|date:"MM-dd-yyyy  HH:mm:ss"}}
+                  </textarea>
+                        <div class="mar-top clearfix" style="text-align: center;">
+                            <span class=" btn-sm  bg-danger rounded-1 text-dark p-2 pull-right"> ملاحظة دكتورك</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 bootstrap snippets">
+                <form [formGroup]="patientNoteDataForm">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <textarea class="form-control notebody m-3" formControlName="text" style="text-align: end;"
+                                rows="2" placeholder=" اكتب ملاحظتك هنا ليراها طبيبك">
+                  </textarea>
+                            <div *ngIf="text?.touched && text?.invalid">
+                                <p *ngIf="text?.errors?.['required']" class="text-danger" dir="rtl">
+                                    برجاء ادخال الملاحظه قبل الضغط علي الزر
+                                </p>
+                            </div>
+                            <div class="mar-top clearfix" style="text-align: end;">
+                                <button class="btn btn-sm  blue pull-right" (click)="AddPatientNote()" type="submit"><i
+                                        class="fa fa-pencil fa-fw"></i>
+                                    تم</button>
+                            </div>
+                        </div>
+                        <div *ngIf="showDone" class="confirmation-box">
+                            <div class="alert alert-success alert-dismissible fade show" role="alert" dir="rtl">
+                                سوف يصلك الرد من دكتورك
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"
+                                    aria-label="Close"></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <div *ngSwitchCase="'NotConfirmed'" class="m-5  " style="height: 70vh;">
+        <div class="container " style="direction: rtl;">
+
+            <div class="alert alert-danger text-left" role="alert">
+                <h4 class="alert-heading fw-bold">نأسف</h4>
+                <p>لم يتم الاشتراك فى خطة بعد </p>
+                <hr>
+                <p class="mb-0">يمكنك الاشتراك فى خطة عن طريق اختيار دكتور وطلب الاشتراك</p>
+            </div>
+        </div>
+
+        <p (click)="ShowDoctors()" class="underline-on-click text-center" style="color: blue; font-weight:bold ;">لمعرفة
+            دكتور، اضغط هنا</p>
+    </div>
+
+    <div *ngSwitchCase="'Canceled'" style="height: 70vh;">
+        <div class="alert alert-danger text-left" role="alert">
+            <h4 class="alert-heading fw-bold">نأسف</h4>
+            <p>يجيب دفع الاشتراك لمتابعة الخطة</p>
+            <hr>
+        </div>
+    </div>
+
+
+
+
+    <div *ngSwitchCase="'Done'" style="height: 70vh;">
+        <div class="alert alert-success text-left" role="alert" dir="rtl">
+            <h4 class="alert-heading fw-bold">نشكرك</h4>
+            <p> تم انتهاء الخطه بنجاح و يمكنك الاشتراك مجددا</p>
+            <hr>
+        </div>
+    </div>
+    <div *ngSwitchCase="'Waiting'"   class="mt-5" style="height: 70vh;">
+        <div class="alert alert-warning col-6 mx-auto text-left mt-5 " role="alert" dir="rtl">
+            <h4 class="alert-heading fw-bold">نشكرك</h4>
+            <p>  انت قيد الاشتراك  برجاء انتظار موافقة طبيبك</p>
+            <hr>
+        </div>
+    </div>
+</div>

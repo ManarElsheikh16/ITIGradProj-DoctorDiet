@@ -1,0 +1,102 @@
+<section class="Header content py-5 p-2 ">
+
+
+  <div class="card rounded mb-3 m-auto   shadow " style="max-width: 80%;">
+    <div class="row g-0">
+
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-title mt-3" style="color:#163A66; font-size: 2.0rem; font-weight: bolder; text-align: right;">
+            د/{{doctor?.fullName}} </p>
+          <div class="row">
+            <div style="text-align: right; " class="col">
+              <i class="fa-sharp fa-solid fa-star " style="color: #f7fb23;"></i>
+              <i class="fa-sharp fa-solid fa-star " style="color: #f7fb23; "></i>
+              <i class="fa-sharp fa-solid fa-star" style="color: #f7fb23;"></i>
+              <i class="fa-sharp fa-solid fa-star" style="color: #f7fb23;"></i>
+              <i class="fa-sharp fa-solid fa-star" style="color: #f7fb23;"></i>
+            </div>
+          </div>
+          <br>
+          <br>
+          <div dir="rtl">
+
+            <div class="card-text text-end text-md-end" style="color:#163A66; font-size: 1.1rem;">
+              <i class="fa-sharp fa-solid fa-stethoscope"></i>
+              <span style="color:#163A66; font-size: 1.5rem;">&nbsp; {{doctor?.specialization}}</span>
+
+            </div>
+            <br>
+
+            <br>
+            <div class="card-text text-end text-md-end" style="color:#163A66; font-size: 1.1rem;">
+
+              <i class="fa fa-light fa-location-dot"></i>
+              <span style="color:#163A66; font-size: 1.5rem;">&nbsp; {{doctor?.location}}</span>
+
+            </div>
+          </div>
+
+          <br>
+          <br>
+          <br>
+
+
+          <div class="row align-items-center  " dir="rtl">
+
+            <div class="card-text text-end text-md-end" style="    justify-content: center;
+            color: #163A66;
+            font-size: 1rem;
+            display: flex;">
+              <span style="box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;"
+                class="fa fa-solid fa-clipboard-list p-2 rounded-2 pt-3 ">
+
+                &nbsp; مدة الخطة 3 شهور &nbsp;
+              </span>
+
+
+              <span id="loginBtn" class="btn btnB" (click)="IsSubscribed && change(doctor.id)"
+                [ngClass]="{'disabled': !IsSubscribed}" [style.pointer-events]="!IsSubscribed ? 'none' : 'auto'">اشترك
+                الان&nbsp;!</span>
+
+            </div>
+
+
+            <p *ngIf="appear" class="card-text bg-success bg-opacity-25 w-75 m-auto mt-3 rounded-2 p-2 m-2"
+              style="text-align: center; color:#163A66; line-height: .5;  font-size: 1.1rem; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;">
+              <br>
+              <i id="i5" class=" fa-solid fa-phone-volume ">&nbsp;&nbsp;يرجي التواصل مع الدكتوره لدفع الاشتراك </i>
+              <br>
+              <span>
+                <div *ngFor="let contact of doctor?.contactInfo">
+
+                  <br>
+                  <br>
+                  <span style="text-align: right; color:#163A66; line-height: .5;  font-size: 1.3rem;">
+                    {{contact.contactInfo}}
+                  </span>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                </div>
+
+              </span>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="col-md-4  m-auto">
+        <img src='data:image/png;base64,{{doctor?.profileImage}}' loading="lazy" class="img-fluid p-3 rounded "
+          name="asm" style="width: auto; height: auto;" alt="...">
+      </div>
+
+    </div>
+  </div>
+
+
+</section>

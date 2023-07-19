@@ -1,0 +1,34 @@
+E:\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Data.deps.json
+E:\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Data.runtimeconfig.json
+E:\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Data.dll
+E:\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Data.pdb
+E:\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Models.dll
+E:\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Models.pdb
+E:\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.csproj.AssemblyReference.cache
+E:\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.AssemblyInfoInputs.cache
+E:\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.AssemblyInfo.cs
+E:\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.csproj.CoreCompileInputs.cache
+E:\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.csproj.CopyComplete
+E:\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.dll
+E:\API\DoctorDiet.Data\obj\Release\net7.0\refint\DoctorDiet.Data.dll
+E:\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.pdb
+E:\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.genruntimeconfig.cache
+E:\API\DoctorDiet.Data\obj\Release\net7.0\ref\DoctorDiet.Data.dll
+D:\اخر اليوم\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Data.deps.json
+D:\اخر اليوم\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Data.runtimeconfig.json
+D:\اخر اليوم\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Data.dll
+D:\اخر اليوم\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Data.pdb
+D:\اخر اليوم\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Models.dll
+D:\اخر اليوم\API\DoctorDiet.Data\bin\Release\net7.0\DoctorDiet.Models.pdb
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.csproj.AssemblyReference.cache
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.AssemblyInfoInputs.cache
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.AssemblyInfo.cs
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.csproj.CoreCompileInputs.cache
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.csproj.CopyComplete
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.dll
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\refint\DoctorDiet.Data.dll
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.pdb
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\DoctorDiet.Data.genruntimeconfig.cache
+D:\اخر اليوم\API\DoctorDiet.Data\obj\Release\net7.0\ref\DoctorDiet.Data.dll

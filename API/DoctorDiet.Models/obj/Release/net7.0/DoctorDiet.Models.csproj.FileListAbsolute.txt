@@ -1,0 +1,24 @@
+E:\API\DoctorDiet.Models\bin\Release\net7.0\DoctorDiet.Models.deps.json
+E:\API\DoctorDiet.Models\bin\Release\net7.0\DoctorDiet.Models.dll
+E:\API\DoctorDiet.Models\bin\Release\net7.0\DoctorDiet.Models.pdb
+E:\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.csproj.AssemblyReference.cache
+E:\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.AssemblyInfoInputs.cache
+E:\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.AssemblyInfo.cs
+E:\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.csproj.CoreCompileInputs.cache
+E:\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.dll
+E:\API\DoctorDiet.Models\obj\Release\net7.0\refint\DoctorDiet.Models.dll
+E:\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.pdb
+E:\API\DoctorDiet.Models\obj\Release\net7.0\ref\DoctorDiet.Models.dll
+D:\اخر اليوم\API\DoctorDiet.Models\bin\Release\net7.0\DoctorDiet.Models.deps.json
+D:\اخر اليوم\API\DoctorDiet.Models\bin\Release\net7.0\DoctorDiet.Models.dll
+D:\اخر اليوم\API\DoctorDiet.Models\bin\Release\net7.0\DoctorDiet.Models.pdb
+D:\اخر اليوم\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.csproj.AssemblyReference.cache
+D:\اخر اليوم\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\اخر اليوم\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.AssemblyInfoInputs.cache
+D:\اخر اليوم\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.AssemblyInfo.cs
+D:\اخر اليوم\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.csproj.CoreCompileInputs.cache
+D:\اخر اليوم\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.dll
+D:\اخر اليوم\API\DoctorDiet.Models\obj\Release\net7.0\refint\DoctorDiet.Models.dll
+D:\اخر اليوم\API\DoctorDiet.Models\obj\Release\net7.0\DoctorDiet.Models.pdb
+D:\اخر اليوم\API\DoctorDiet.Models\obj\Release\net7.0\ref\DoctorDiet.Models.dll

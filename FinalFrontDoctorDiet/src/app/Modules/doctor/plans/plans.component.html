@@ -1,0 +1,93 @@
+<div class="row mt-4 contain" style="text-align: center;">
+  <span class="fw-bold fs-4" style="color:  #0d1c9e;">الخطط</span>
+
+  </div>
+  <div class="row ">
+    <div class="col-9"></div>
+    <button routerLink="/doctor/dash/AddPlan" class="btn btn-primary col-2 mb-3">أضافة خطة</button>
+  
+  
+  </div>
+  <div class="row mt-2 mx-4 plans flex-wrap">
+  
+     
+                        <h2 class="col-12"  style="color:  #0d1c9e; text-align: center;">خطط خسارة الوزن</h2>
+               
+                    
+                        <div class=" col-sm-12 col-md-4 text-center" *ngFor="let plans of LossWeight" >
+  
+                      <div class="animate__animated animate bounce card " >
+                        <div class="container p- ">
+                          <img  src="assets/plans.webp" class="card-img-top p-3" alt="..."  loading="lazy" name="favj"></div>
+                          <div class="card-body">
+                            <h4 class="card-title ms-1">كالوريز</h4>
+                          <h4 class="card-title ms-1"> {{plans.caloriesFrom}} - {{plans.caloriesTo}}</h4>
+                          <p class="card-text mb-2 ms-1">المده : {{plans.duration}}</p>
+                          <p class="card-text mb-1 ms-1">الهدف : {{plans.goal}}</p>
+                          <p class="card-text mb-3 ms-1">النوع : {{plans.gender}}</p>
+                           <a (click)="GOToplan(plans.id)" target="_blank" class="btn btn-primary mb-1 mx-1 mt-1 ">تفاصيل</a>
+                          <a  data-bs-toggle="modal" data-bs-target="#delete"  target="_blank" class="btn btn-danger mb-1 mt-1 " (click)="assignPlan(plans.id)">مسح</a>
+                          <a (click)="Update(plans.id)" target="_blank" class="btn btn-warning mb-1 mx-1 mt-1 " style="color: white;">تعديل</a>
+                        </div>
+                      </div>
+                          </div>
+
+                      <h2 class="col-12"  style="color:  #0d1c9e;text-align: center;">خطط زيادة الوزن</h2>
+                      
+                      <div class=" col-sm-12 col-md-4 text-center" *ngFor="let plans of GainWeight" >
+  
+                        <div class="animate__animated animate bounce card " >
+                          <div class="container p- ">
+                            <img  src="assets/plans.webp"class="card-img-top p-3" alt="..."  loading="lazy" name="favj"></div>
+                            <div class="card-body">
+                              <h4 class="card-title ms-1">كالوريز</h4>
+                            <h4 class="card-title ms-1"> {{plans.caloriesFrom}} - {{plans.caloriesTo}}</h4>
+                            <p class="card-text mb-2 ms-1">المده : {{plans.duration}}</p>
+                            <p class="card-text mb-1 ms-1">الهدف : {{plans.goal}}</p>
+                            <p class="card-text mb-3 ms-1">النوع : {{plans.gender}}</p>
+                             <a (click)="GOToplan(plans.id)" target="_blank" class="btn btn-primary mb-1 mx-1 mt-1 ">تفاصيل</a>
+                             <a  data-bs-toggle="modal" data-bs-target="#delete"  target="_blank" class="btn btn-danger mb-1 mt-1 " (click)="assignPlan(plans.id)">مسح</a>
+                             <a (click)="Update(plans.id)" target="_blank" class="btn btn-warning mb-1 mx-1 mt-1 " style="color: white;">تعديل</a>
+                          </div>
+                        </div>
+                        </div>
+                      
+                        <h2 class="col-12 "  style="color:  #0d1c9e; text-align: center;">خطط تكوين العضلات </h2>
+                       
+                        <div class=" text-center col-sm-12 col-md-4" *ngFor="let plans of Muscles" >
+  
+                          <div class="animate__animated animate bounce card " >
+                            <div class="container p- ">
+                              <img  src="assets/plans.webp" class="card-img-top p-3" alt="..."  loading="lazy" ></div>
+                              <div class="card-body">
+                              <h4 class="card-title ms-1">كالوريز</h4>
+                              <h4 class="card-title ms-1"> {{plans.caloriesFrom}} - {{plans.caloriesTo}}</h4>
+                              <p class="card-text mb-2 ms-1">المده : {{plans.duration}}</p>
+                              <p class="card-text mb-1 ms-1">الهدف : {{plans.goal}}</p>
+                              <p class="card-text mb-3 ms-1">النوع : {{plans.gender}}</p>
+                               <a (click)="GOToplan(plans.id)" target="_blank" class="btn btn-primary mb-1 mx-1 mt-1 ">تفاصيل</a>
+                              <a  data-bs-toggle="modal" data-bs-target="#delete"  target="_blank" class="btn btn-danger mb-1 mt-1 " (click)="assignPlan(plans.id)">مسح</a>
+                              <a (click)="Update(plans.id)" target="_blank" class="btn btn-warning mb-1 mx-1 mt-1 " style="color: white;">تعديل</a>
+                            </div>
+                          </div>
+                        </div>
+                       
+                       <div class="modal " id="delete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content" style="  margin-top: 60%;">
+                      <div class="modal-header">
+                        <h5 class="modal-title fs-5" id="exampleModalLabel">التاكيد</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                       هل تريد تاكيد مسح الخطة؟
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">رجوع</button>
+                        <button type="button" class="btn btn-success"(click)="Delete()" data-bs-dismiss="modal" >نعم</button>
+                      </div>
+                    </div>
+                  </div>
+                        </div>
+                     
+ </div>

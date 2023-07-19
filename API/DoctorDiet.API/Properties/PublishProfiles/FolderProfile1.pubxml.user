@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\noure\OneDrive\Desktop\DoctorDite</_PublishTargetUrl>
+    <History>True|2023-07-10T17:49:15.9236376Z;True|2023-07-10T19:32:25.1075034+03:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="cs">
+      <Value>Data Source=.%3bInitial Catalog=DoctorDiet%3bIntegrated Security=True%3bEncrypt=False</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

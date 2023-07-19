@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\noure\OneDrive\Desktop\New folder</_PublishTargetUrl>
+    <History>True|2023-07-10T19:12:22.2995258Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="cs">
+      <Value>Data Source=ASPHOST921\SQL2019%3bInitial Catalog=mohamedharb4_DoctorDiet%3bUser ID=mohamedharb4_DoctorDiet%3bPassword=DoctorDiet%401234%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
